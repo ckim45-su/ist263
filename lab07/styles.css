@@ -20,3 +20,15 @@ p {background-color: #EEEBDD;
     padding: 20px;
     margin: 50px;
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  } 
+  nav a:hover {background-color: #D8B6A4;}
