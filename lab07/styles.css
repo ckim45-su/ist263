@@ -14,3 +14,9 @@ body {
   .special {background-color: #630000
   }
 .evenrow {color:grey;}
+
+p {background-color: #630000;
+    border: 1px solid #1c03fc;
+    padding: 20px;
+    margin: 50px;
+}
