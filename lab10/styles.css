@@ -1,0 +1,15 @@
+body {
+    font-family: 'Times New Roman', serif;
+  }
+  h1 h2 {color: grey;} 
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+
+  .special {background-color: grey}
+

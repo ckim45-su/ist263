@@ -8,7 +8,7 @@
     <style>
 body {font-family: 'Times New Roman', Times, serif;}
         .nav1 {display: flex;
-            background-color: purple;
+            background-color: red;
             color: white;
             justify-content: flex-end; 
         }
@@ -18,38 +18,60 @@ body {font-family: 'Times New Roman', Times, serif;}
         .nav1 div {
             margin: 10px;
 }
-.button1 {background-color: rgb(180, 72, 72);
-} 
-.button2 {background-color: rgb(180, 72, 72);
-} 
-.button1, .button2, .menu, .chinese, .cajun {
-        border: 1px dotted whitesmoke;
-        display: flex; 
-        justify-content: center;
+h1, p, h2, h3, h4 { 
+    text-align:center
 }
-    </style>
+@media only screen and (max-width: 600px) {
+            body {background-color: pink;}
+            .banner {display: none;}
+.paper { 
+    border: black;
+}
+.checked {
+  color: orange;
+}
+</style>
 </head>
 <body>
-    <div class="nav1"> 
+    <div class= nav1> 
         <div>Home</div>
         <div>Menu</div>
         <div>About Me</div>
     </div>
+
+    <h1> Christine's Syrause Restuarant Reccommendations! </h1>
+    <p> Pick from menu for your next meal!</p>
+
+    <div class= paper>
             <div class= menu>
                 <h2>Menu</h2>
             </div>
             <div class= chinese>
                 <h3>Red Chili</h3>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<center> <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> </center> <br>
             </div>
             <div class= button1>
-                <button class="button1">Pick!</button>
+                <button style="display:block; margin: 0 auto;">Pick!</button>
+            
             </div>
             <div class= cajun>
                 <h3>Storming Crab</h3>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<center> <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span> </center> <br>
             </div>
         </div>
         <div class= button2>
-        <button class= "button2" >Pick!</button>
+            <button style="display:block; margin: 0 auto;">Pick!</button>
         </div>
+    </div>
 </body>
 </html>
