@@ -12,4 +12,9 @@ body {
   }
 
   .special {background-color: grey}
+  .pic {max-width: object-fit }
 
+  img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
