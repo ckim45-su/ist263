@@ -5,17 +5,42 @@
 <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 <title>Christine Kim</title>
 
-<div class= navigation> <nav>
-        <a href="https://ckim45-su.github.io/ist263/lab07/">Home</a> |
-        <a href="https://ckim45-su.github.io/ist263/lab06/contacts.html">Contacts</a> |
-        <a href="https://ckim45-su.github.io/ist263/lab06/skills.html">Skills</a> |
-      </nav> </div>
+<span> <div id= navigation> <nav>
+        <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/lab07/">Home</a> </div>
+        <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/lab06/contacts.html">Contacts</a> </div>
+        <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/lab06/skills.html">Skills</a> </div>
+      </nav> </div> </span>
 </head>
 <style> 
+.navigation {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+.navigation div{ width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
 .pic {
     width:540px; /* you can use % */
     height: auto;
-}</style>
+}
+</style>
 <body>
         <p><img class= pic src="../images/istphoto.png"> </p>
 <h1> Christine's Biography </h1>
