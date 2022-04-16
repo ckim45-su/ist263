@@ -1,0 +1,20 @@
+body {
+    font-family: 'Times New Roman', serif;
+  }
+  h1 h2 {color: grey;} 
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+
+  .special {background-color: grey}
+  .pic {max-width: object-fit }
+
+  img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
