@@ -1,101 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head> 
-  <meta name='viewport' content='initial-scale=1, viewport-fit=cover'> 
-  <head>
     <title>Titles are required</title>
     <nav>
-      <a href="https://ckim45-su.github.io/ist263/lab10/">Home</a> |
-      <a href="https://ckim45-su.github.io/ist263/lab10/contacts.html">Contacts</a> |
-      <a href="https://ckim45-su.github.io/ist263/lab10/skills.html">Skills</a> |
+      <a href="https://ckim45-su.github.io/ist263/lab07/">Home</a> |
+      <a href="https://ckim45-su.github.io/ist263/lab06/contacts.html">Contacts</a> |
+      <a href="https://ckim45-su.github.io/ist263/lab06/skills.html">Skills</a> |
     </nav>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/840bef8a38.js" crossorigin="anonymous"></script> 
 </head>
 <style> 
-table, th, td {border: 1px solid black;}
+ .skills {
+            display:flex;
+            justify-content: space-evenly;
+
+ }
+ .item {
+  width: 80px;
+  height: 90px;
+  margin: 15 5px;
+ }
+.flexcentering {
+  font-size: 20px;
+        display: flex; 
+        justify-content: center;
+    font-size: 30px;
+  }
+  .other{ background-color: rgb(188, 188, 219);
+    border-radius: 1em;
+    column-gap: 50em;
+  }
+  .intro {
+    display:flex;
+    width: 930px;
+  height: 10px;
+  margin: 5px;
+  }
+
+.flexbox2 {
+  width: 100px;
+  height: 100px;  
+justify-content: space-evenly;
+  flex: 30%;
+  display: flex;
+}
+.skills, .flexbox2, .other, .item {margin: 20px;}
+.skills, .flexbox2, .other, .item {padding: 30px;}
 </style>
+
         <meta charset="utf-8">
         <title> Contact
         </title>
         </head>
         <body>
-            <table>
-                <caption> Grocery List</caption>
-                <tr>
-                  <th>Store</th>
-                  <th>Type</th>
-                  <th>Price($)</th>
-                </tr>
-                <tr class="special">
-                  <td>Whole Foods</td>
-                  <td>Apples</td>
-                  <td>1</td>
-                </tr>
-                <tr>
-                  <td>Whole Foods</td>
-                  <td>Bananas</td>
-                  <td>.50</td>
-                </tr>
-                <tr class="special">
-                    <td>Whole Foods</td>
-                    <td>Oranges</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>Whole Foods</td>
-                    <td>Lettuce</td>
-                    <td>3</td>
-                  </tr>
-                  <tr class="special">
-                    <td>Whole Foods</td>
-                    <td>Bread</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>Whole Foods</td>
-                    <td>Spinach</td>
-                    <td>2</td>
-                  </tr>
-                  <tr class="special">
-                    <td>Whole Foods</td>
-                    <td>Pork</td>
-                    <td>5</td>
-                  </tr>
-                  <tr>
-                    <td>Whole Foods</td>
-                    <td>Steak</td>
-                    <td>15</td>
-                  </tr>
-                  <tr class="special">
-                    <td>Whole Foods</td>
-                    <td>Eggs</td>
-                    <td>6</td>
-                  </tr>
-                  <tr>
-                    <td>Target</td>
-                    <td>Toilet Paper</td>
-                    <td>20</td>
-                  </tr>
-                  <tr class="special">
-                    <td>Target</td>
-                    <td>Vitamins</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>Target</td>
-                    <td>Towels</td>
-                    <td>1</td>
-                  </tr>
-                  <tr class="special">
-                    <td>Target</td>
-                    <td>PLastic Bags</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>Target</td>
-                    <td>Paper</td>
-                    <td>8</td>
-                  </tr>
-              </table>
+        
+          <div class= "flexcentering"> Skills </div>
+
+          <div class= intro><p> I am a public relations student studying at Newhouse. I also have a minor in Information Management & Technology. I hold a freelancing job in writing and as a country speciaist for a social media app. Below are my current skill sets. </p></div>
+
+          <div class= skills> 
+            <div class= item><i class="fa-solid fa-pen"></i>
+              <p> Writing</p> <br> </div>
+            <div class= item><i class="fa-brands fa-microsoft"></i>
+              <p> Microsoft</p> <br> </div>
+            <div class= item> <i class="fa-brands fa-google-drive"></i>
+              <p> Google Drive</p> <br> </div>
+            <div class= item> <i class="fa-brands fa-slack"></i>
+              <p> Slack</p> <br> </div>
+            <div class= item><i class="fa-solid fa-heart"></i>
+              <p> Social Media</p> <br> </div>
+
+<div class= flexbox2> 
+  <div>
+  <div> </div>
+    <div class= other> 
+    <h2> Other Skills</h2>
+    <p> HTML</p>
+    <p> PESO</p>
+    <p> Country Specialist</p>
+    <p> Korean</p>
+    <p> Editing</p> </div> 
+</div>
+
+
+
               </body>              
               </html>
