@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab 11</title>
+    <script>
+        function Winnermessage () {
+        document.getElementById("message").innerHTML = 'You won!';
+        }
+        function TryAgain () {
+            document.getElementById("message").innerHTML = 'Wrong shell - Try Again!';
+        }
+        function ShuffleShells() {
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
+        }
+    </script>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+    #first {order: 1;}
+    #second {order: 1;}
+    #third {order: 3;}
+</style>
+<body onload="ShuffleShells();">
+    <h1>Choose a Walnut</h1>
+<div class="container"> 
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id= "first" alt="firstwalnut" onclick= "WinnerMessage();"> 
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id= "second"alt="secondwalnut" onclick= "TryAgAIn();">
+    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id= "third" alt="thirdwalnut" onclick= "TryAgain();">
+</div>
+    <div id="message"></div>
+</body>
+</html>
