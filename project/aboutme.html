@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style> body {font-family: 'Times New Roman', Times, serif;}
+<style> 
+body {font-family: 'Times New Roman', Times, serif;}
     .nav1 {display: flex;
-        background-color: purple;
-        color: white;
+        background-color: white;
+        color: black;
         justify-content: flex-end; 
     }
     .nav1 div { 
@@ -18,32 +19,56 @@
     .nav1 div {
         margin: 10px;
 }
-.button1 {background-color: rgb(180, 72, 72);
-} 
-.button2 {background-color: rgb(180, 72, 72);
-} 
-.button1, .button2, .menu, .chinese, .cajun {
-    border: 1px dotted whitesmoke;
-    display: flex; 
-    justify-content: center;
-    margin: 2px;
-    padding: 3px;
-    flex: 80%;
-display: flex;
-}
-.button1, .button2 {
-width: 3em;
-height: 2em;
-justify-content: center;
+.section { 
 align-items: center;
 }
-.section { 
-align-items: center; 
+body {
+    background-image: linear-gradient(white, rgb(102, 26, 26));
+    padding: 5;
+    margin: 5;
+    font-family: 'Lato', sans-serif;
+    
+}
+.profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
 }
 </style>
+
 <body>
-    
-    <p><img class= pic src="images/christine.jpeg"/> </p>
-    Hi! My name is Christine Kim. I am a public relations student studying at Syracuse University. This page is a compilation of all my favorite restuarants in Syracuse that I have gotten to know of. I am from South Korea and California and have traveled to many different countries. So my palate is a bit diverse and risk taking. Pick from the menu for your next meal!
+    <div class= nav1> 
+        <div>Home</div>
+        <div>Menu</div>
+        <div>About Me</div>
+    </div>
+            <div>
+                  <img class="profile_img" src="images/christine.jpeg" alt="student dp">
+                  <h3>Christine Kim</h3>
+            </div>
+            <div>
+                    <p>Hi! My name is Christine Kim. I am a public relations student studying at Syracuse University. This page is a compilation of all my favorite restuarants in Syracuse that I have gotten to know of. I am from South Korea and California and have traveled to many different countries. So my palate is a bit diverse and risk taking. Pick from the menu for your next meal!</p>
+            </div>
+            <div>
+                  <p class="mb-0"><strong class="pr-1">Occupation:</strong>Student at Syracuse University</p>
+                  <p class="mb-0"><strong class="pr-1">Age:</strong>21</p>
+                  <p class="mb-0"><strong class="pr-1">From:</strong>South Korea & California, San Jose</p>
+            </div>
+            <div>
+                  <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Contacts</h3>
+            </div>
+            <article class="article2">
+                <p>
+                    My LinkedIn Profile: <a href="https://www.linkedin.com/in/christineyerinkim/" target="_blank">Google</a>
+                </p>
+                <p>
+                    Email Address: <a href="mailto:ckim45@syr.edu">ckim45@syr.edu</a>
+                </p>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11663.14884736198!2d-76.13066398782642!3d43.04590841459974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e9a76e31%3A0xe11f76f0625022d4!2s110%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644712239948!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" ></iframe></p>  
+            </article>
+
 </body>
 </html>
