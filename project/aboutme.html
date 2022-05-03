@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <span> <div id= navigation> <nav>
-        <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/Redchili.html">Red Chili</a> </div>
-        <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
-        <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
-      </nav> </div> </span>
+
 </head>
 <style> 
 body {font-family: 'Times New Roman', Times, serif;}
@@ -42,9 +38,40 @@ body {
     border: 10px solid #ccc;
     border-radius: 50%;
 }
+/* navigation */
+
+.topnav {
+  background-color: white ;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: purple;
+  color: pink;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
 </style>
 
 <body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
+        <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
+        <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
+      </div>
+      
             <div>
                   <img class="profile_img" src="images/christine.jpeg" alt="student dp">
                   <h3>Christine Kim</h3>
