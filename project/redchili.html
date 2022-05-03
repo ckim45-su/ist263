@@ -53,24 +53,76 @@ body {
 .topnav a.active {
   background-color: white;
   color: white;
+
 }
+
+.bar4 {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+/*columns*/
+
+
+
+.center-column {
+  background-color: white;
+  height: 100px;
+}
+
+.right-column {
+  background-color: white;
+  height: 100px;
+}
+.left-column {
+  background-color: white;
+  height: 100px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 </style>
 <body>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
-        <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
-        <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
-        <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
+        <div class= "bar1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
+        <div class= "bar2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
+        <div class= "bar3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
+        <div class= "bar4"> <b>Christine's YamYam Adventures </b></div>
       </div>
     <h1> Red Chilli</h1>
-    <p> Red Chili is a, “Chill Chinese bar/eatery with hot pot tables & down-home Sichuan dishes, plus private
-        karaoke rooms”, as stated on their website.
-    </p>
-    <p> 
-        Review:
-        They have an assortment of dishes like hotpot Chinese style, dry pot, Chengdu style shrimp, and wontons.
-       They are the best Chinese restaurant you can find in Syracuse. Sticking to authentic tastes and spices of China, I appaud at their committment in retaining the original taste. Many restaurant sfound in the US and Syracuse have been very Americanized. Red Chili, however, has maintained their cultural identity within food making it a git spot for foodies and Chinese international students. 
-        I recommend the dry pot as well as the hot pot with friends as portions are large and most delicous. </p>
-
+    <div> 
+        <div>
+            <p> Red Chili is a, “Chill Chinese bar/eatery with hot pot tables & down-home Sichuan dishes, plus private
+                karaoke rooms”, as stated on their website.
+            </p>
+            <p> 
+                Review:
+                They have an assortment of dishes like hotpot Chinese style, dry pot, Chengdu style shrimp, and wontons.
+               They are the best Chinese restaurant you can find in Syracuse. Sticking to authentic tastes and spices of China, I appaud at their committment in retaining the original taste. Many restaurant sfound in the US and Syracuse have been very Americanized. Red Chili, however, has maintained their cultural identity within food making it a git spot for foodies and Chinese international students. 
+                I recommend the dry pot as well as the hot pot with friends as portions are large and most delicous. </p>
+        </div>
+        
+        <div>
+            <img class="profile_img" src="images/christine.jpeg" 
+        </div>
+    </div>
+   
+    <div class="box">
+            <div class='center-column'>
+              Some Text in Column One
+            </div>
+          </div>
+            <div class='right-column'>
+              Some Text in Column Two
+            </div>
+                <div class='left-column'>
+                  Some Text in Column Two
+                </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
