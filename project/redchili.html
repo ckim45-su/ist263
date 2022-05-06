@@ -261,6 +261,11 @@ body {
   width: 50%;
   
 }
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 </style>
 <body>
   <div class="topnav">
@@ -286,16 +291,16 @@ body {
          <hr>
          
          <h1> Photos </h1>
-        <table>
+        <table class= "flex-container">
           <tr>
             <td><img class="image1" src="images/image2.jpg"></td>
             <td> <img class="image1" src="images/image3.jpg"></td>
             <td>  <img class="image1" src="images/image4.jpg"></td>
           </tr>
-          <tr> 
-            <td> words</td>
-            <td> words </td>
-            <td> words</td>
+          <tr style="text-align:center"> 
+            <td> <em>Green Pepper Chili Shrimp</em> </td>
+            <td> <em>Braised Soy Suace Chicken with Vegetables</em> </td>
+            <td><em> Mapo Tofu</em></td>
           </tr>
         </table>
          <hr>
