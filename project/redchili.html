@@ -200,8 +200,8 @@ h1 {
 }
 body {
     background-image: linear-gradient(white, rgb(102, 26, 26));
-    padding:5;
-    margin:5;
+    padding:1em;
+    margin:1em;
     font-family: 'Lato', sans-serif;
 }
 
@@ -261,11 +261,12 @@ body {
   width: 50%;
   
 }
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: center;
+ @media only screen and (max-width: 600px){
+  [class*=".map, .paragraph"] {
+    width: 100%;
   }
-}
+ }
+
 .tofu, .shrimp, .chicken {
   padding: 1em;
   margin: 1em;
@@ -282,23 +283,23 @@ body {
 </style>
 </head>
 <body>
-  <div class="topnav" @media (width: 100%)>
+  <div class="topnav">
     <a class="active" href="#home">Home</a>
     <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
     <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
     <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
-    <div class= "bar4"> <b>Christine's YamYam Adventures &#128525</b></div>
+    <div class= "bar4"> <b>Christine's YamYam Adventures &#128525;</b></div>
   </div>
 
-      <div= menu>
+      <div class= "menu">
         <h1 style="text-align:center"> MENU ITEM: RED CHILI </h1>
-         <div id="restuarants" class="menu">
+         <div id="restuarant1" class="menu1">
          <p class= "writing1">  Red Chili is a, “Chill Chinese bar/eatery with hot pot tables & down-home Sichuan dishes, plus private
             karaoke rooms”, as stated on their website.</p>
          <hr>
          
          <h1 style="text-align:center"> Review </h1>
-         <div id="restuarants" class="menu">
+         <div id="restuarant2" class="menu2">
          <p class= "writing2">     Review: They have an assortment of dishes like hotpot Chinese style, dry pot, Chengdu style shrimp, and wontons.
            They are the best Chinese restaurant you can find in Syracuse. Sticking to authentic tastes and spices of China, I appaud at their committment in retaining the original taste. Many restaurant sfound in the US and Syracuse have been very Americanized. Red Chili, however, has maintained their cultural identity within food making it a git spot for foodies and Chinese international students. 
             I recommend the dry pot as well as the hot pot with friends as portions are large and most delicous.</p>
@@ -307,11 +308,11 @@ body {
          <h1 style="text-align:center"> Photos </h1>
          <div class= "flex-container">
           <div style="text-align:center" class= "shrimp"> <em>Green Pepper Chili Shrimp</em><br>
-            <img class="image1" src="images/image2.jpg"></div>
-          <div style="text-align:center" class= "chicken"> <em>Braised Soy Sauce Chicken with Vegetables</em><br>
-            <img class="image1" src="images/image3.jpg"></div>
+            <img class="image1" src="images/image2.jpg" alt= "fish on plate"></div>
+          <div style="text-align:center" class= "chicken" > <em>Braised Soy Sauce Chicken with Vegetables</em><br>
+            <img class="image1" src="images/image3.jpg" alt= "bones on a plate"></div>
           <div style="text-align:center" class= "tofu"> <em>Mapo Tofu</em><br>
-            <img class="image1" src="images/image4.jpg"> </div>
+            <img class="image1" src="images/image4.jpg" alt= "meat on a plate"> </div>
       </div>
       
   
