@@ -237,10 +237,16 @@ body {
  .paragraph {
    padding: 1em;
  }
+ @media (width: 100%) {
+  [class*=".map, .paragraph"] {
+    width: 100%;
+  }
+ }
+
 </style>
 </head> 
 <body class= "paragraph">
-    <div class="topnav" @media (width: 100%)>
+    <div class="topnav">
         <a class="active" href="#home">Home</a>
         <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
         <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
@@ -271,7 +277,7 @@ body {
                     Email Address: <a href="mailto:ckim45@syr.edu">ckim45@syr.edu</a>
                 </p>
                 <h4> Check out where I'm located right now for my next food adventure! </h4>    
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11663.14884736198!2d-76.13066398782642!3d43.04590841459974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e9a76e31%3A0xe11f76f0625022d4!2s110%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644712239948!5m2!1sen!2sus" @media (width: 100%) ></iframe></p>  
+                <p class= "map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11663.14884736198!2d-76.13066398782642!3d43.04590841459974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e9a76e31%3A0xe11f76f0625022d4!2s110%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644712239948!5m2!1sen!2sus"></iframe></p>  
             </article>
             <footer>
                 <hr>
