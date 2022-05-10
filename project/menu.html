@@ -201,8 +201,8 @@ h1 {
 }
 body {
     background-image: linear-gradient(white, rgb(102, 26, 26));
-    padding:5;
-    margin:5;
+    padding:1em;
+    margin:1em;
     font-family: 'Lato', sans-serif;
     text-align: center;
     float:inline-start;
@@ -237,18 +237,22 @@ body {
  .image5, .image6, .image7 {
    float:inline-start
   }
-  @media (width:100%) {
-}
+ @media only screen and (max-width: 600px){
+  [class*=".map, .paragraph"] {
+    width: 100%;
+  }
+ }
+
 
 </style>
 </head>
 <body>
-    <div class="topnav" @media (width: 100%)>
+    <div class="topnav" >
         <a class="active" href="#home">Home</a>
         <div class= "bar 1"><a href="https://ckim45-su.github.io/ist263/project/redchili.html">Red Chili</a> </div>
         <div class= "bar 2"><a href="https://ckim45-su.github.io/ist263/project/aboutme.html">Contacts</a> </div>
         <div class= "bar 3"><a href="https://ckim45-su.github.io/ist263/project/menu.html">Menu</a> </div>
-        <div class= "bar4"> <b>Christine's YamYam Adventures &#128525</b></div>
+        <div class= "bar4"> <b>Christine's YamYam Adventures &#128525; </b></div>
       </div>
 
     <div= menu>
@@ -264,7 +268,7 @@ body {
                 <input type="submit" value="Pick! " />
                  </form>
         <p class="w3-text-grey">Authentic chinese hot pot, Sichuan dishes, and Karaoke</p>
-        <img class="image5" @media (width: 100%) src="images/image5.png"></div>
+        <img class="image5"  src="images/image5.png"></div>
         <hr>
         
         <h1><b>Francesca's</b> <span> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -275,7 +279,7 @@ body {
            <span class="fa fa-star"></span> </span></h1>
            <button style="display:block; margin: 0 auto;">Pick!</button>
         <p class="w3-text-grey">Best Italian restuarant in Syracuse,fresh mozrella and bread, excellent dessert menu</p>
-        <img class="image6" @media (width: 100%) src="images/image6.png"></div>
+        <img class="image6"  src="images/image6.png"></div>
         <hr>
         
         <h1><b>Blue Monkey</b> <span>Hot!</span>
@@ -287,14 +291,12 @@ body {
            <span class="fa fa-star"></span> </span></h1>
            <button style="display:block; margin: 0 auto;">Pick!</button>
         <p class="w3-text-grey">Best sushi, sake, assortment of Japanese dishes like curry and ramen</p>
-        <img class="image7" @media (width: 100%) src="images/image7.png">
+        <img class="image7"  src="images/image7.png">
         </div>
         </body>
         </body>
-        <footer>
             <hr>
-            <footer> &#169; 2020 “2020 “Food is our common ground, a universal experience" - James Beard</footer>
-            
-            </footer>
+            <footer> &#169; 2020 “Food is our common ground, a universal experience" - James Beard</footer>
+          
 </body>
 </html>
